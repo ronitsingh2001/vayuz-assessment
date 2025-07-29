@@ -1,0 +1,26 @@
+* {
+  box-sizing: border-box;
+}
+body{
+  background: #131313;
+  color: #ffffff;
+  font-family: "Quicksand", sans-serif;
+}
+
+.playfair {
+  font-family: "Playfair Display", serif;
+}
+
+
+.bg-gradient-border {
+  background: conic-gradient(
+    from 90deg at 50% 50%,
+    #07a7cd 0deg,
+    #fc0600 62.37deg,
+    #09d809 173.97deg,
+    #ff6600 255.65deg,
+    #f60163 290.5deg,
+    #07a7cd 360deg
+  );
+  
+}
