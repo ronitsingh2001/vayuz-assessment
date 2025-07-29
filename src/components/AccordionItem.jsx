@@ -1,6 +1,6 @@
 const AccordionItem = ({ title, content, isOpen, onToggle }) => {
   return (
-    <div className="">
+    <div>
       <div
         className="flex justify-between items-center cursor-pointer p-1 rounded hover:opacity-80"
         onClick={onToggle}
@@ -12,11 +12,18 @@ const AccordionItem = ({ title, content, isOpen, onToggle }) => {
           className="w-5 h-5"
         />
       </div>
-      {isOpen && (
-        <p className="mt-2 md:w-[75%] md:text-[14px] text-[12px] opacity-60 transition-all">
+
+      <div
+        className={`transition-all duration-300 ease-in-out overflow-hidden ${
+          isOpen
+            ? 'max-h-[500px] opacity-100 scale-100 mt-2'
+            : 'max-h-0 opacity-0 scale-95'
+        }`}
+      >
+        <p className="md:w-[75%] md:text-[14px] text-[12px] opacity-60">
           {content}
         </p>
-      )}
+      </div>
     </div>
   );
 };
