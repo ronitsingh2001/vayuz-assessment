@@ -13,7 +13,7 @@ const AccordionItem = ({ title, content, isOpen, onToggle }) => {
         />
       </div>
       {isOpen && (
-        <p className="mt-2 md:w-[75%] md:text-[14px] text-[10px] opacity-60 transition-all">
+        <p className="mt-2 md:w-[75%] md:text-[14px] text-[12px] opacity-60 transition-all">
           {content}
         </p>
       )}

@@ -61,7 +61,7 @@ function BeginComponent() {
         </p>
       </div>
       <div className="mt-auto md:ms-auto md:w-[25%] flex justify-end">
-        <button className="mt-auto flex gap-2 items-center bg-[#08A7CE] uppercase text-[16px] px-[30px] py-[12px]  rounded-[56px] cursor-pointer hover:bg-[#08A7CE]/80">
+        <button className="mt-auto flex gap-2 items-center bg-[#08A7CE] uppercase md:text-[16px] text-[10px] px-[30px] py-[12px]  rounded-[56px] cursor-pointer hover:bg-[#08A7CE]/80">
           Begin
           <span>
             <img src="./assets/Vector.svg" alt="" />
