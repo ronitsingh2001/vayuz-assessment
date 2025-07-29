@@ -1,6 +1,6 @@
 export default function Connect() {
   return (
-    <div className="flex flex-col lg:flex-row gap-4 p-8">
+    <div className="flex flex-col lg:flex-row gap-4 p-8 py-16">
         <div className="flex flex-col w-full gap-8">
           <ul className="flex gap-4 md:gap-6 lg:gap-8 text-[16px] flex-wrap">
             <li className="hover:opacity-80 cursor-pointer">Events</li>
@@ -9,7 +9,7 @@ export default function Connect() {
             <li className="hover:opacity-80 cursor-pointer">Case study</li>
             <li className="hover:opacity-80 cursor-pointer">SME Talks</li>
           </ul>
-          <h1 className="w-[100%] md:w-[75%] lg:w-[50%] text-[28px]">
+          <h1 className="w-[100%] md:w-[75%] lg:w-[50%] text-[28px] pt-12">
             For any collaborative projects or enquiries feel free to connect
             with us.
           </h1>
