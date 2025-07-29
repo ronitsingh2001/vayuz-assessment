@@ -5,7 +5,7 @@ const AccordionItem = ({ title, content, isOpen, onToggle }) => {
         className="flex justify-between items-center cursor-pointer p-1 rounded hover:opacity-80"
         onClick={onToggle}
       >
-        <div className="playfair text-[26px] opacity-80 capitalize">{title}</div>
+        <div className="playfair md:text-[26px] text-[16px] opacity-80 capitalize">{title}</div>
         <img
           src={`./assets/${isOpen ? "minus" : "plus"}.svg`}
           alt={isOpen ? "Collapse" : "Expand"}
@@ -13,7 +13,7 @@ const AccordionItem = ({ title, content, isOpen, onToggle }) => {
         />
       </div>
       {isOpen && (
-        <p className="mt-2 w-[75%] text-[14px] opacity-60 transition-all">
+        <p className="mt-2 md:w-[75%] md:text-[14px] text-[10px] opacity-60 transition-all">
           {content}
         </p>
       )}

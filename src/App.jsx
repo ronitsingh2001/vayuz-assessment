@@ -4,11 +4,9 @@ import MainDiv from "./components/MainDiv";
 
 export default function App() {
   return (
-    <>
-      <div className="flex h-full w-full">
+    <div className="flex">
         <Sidebar />
         <MainDiv />
-      </div>
-    </>
+    </div>
   );
 }
