@@ -9,7 +9,7 @@ export default function Connect() {
             <li className="hover:opacity-80 cursor-pointer">Case study</li>
             <li className="hover:opacity-80 cursor-pointer">SME Talks</li>
           </ul>
-          <h1 className="w-[100%] lg:w-[75%] md:w-[50%]  text-[28px]">
+          <h1 className="w-[100%] md:w-[75%] lg:w-[50%] text-[28px]">
             For any collaborative projects or enquiries feel free to connect
             with us.
           </h1>
